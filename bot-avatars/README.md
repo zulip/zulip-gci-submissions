@@ -1,1 +1,1 @@
-../tasks/2016/bot-avatars.md
+We're not sure if we are going to have this task in the 2017 competition or not, but it is included for now so that it is easy to find. [Last year's task](https://github.com/zulip/zulip-gci/blob/master/tasks/2016/bot-avatars.md)
