@@ -40,9 +40,9 @@ if data['rebaseable'] == False:
 
 # Check that the PR has the right title.
 title = data['title']
-expected_title = "Submit a Pull Request"
-if title != expected_title:
-	fail("PR has a wrong title. Submitted: '{}'. Expected: '{}'.".format(title, expected_title))
+expected_titles = ["Submit a Pull Request", "Submit a pull request"]
+if not (title in expected_titles):
+	fail("PR has a wrong title. Submitted: '{}'. Expected: '{}'.".format(title, expected_titles[0]))
 
 # Check that the PR has the right branch name.
 branch = data['head']['ref']
