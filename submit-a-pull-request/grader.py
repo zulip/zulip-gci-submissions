@@ -1,3 +1,4 @@
+import sys
 import argparse
 import requests
 
@@ -22,7 +23,7 @@ def report_and_exit():
 		print("LGTM.")
 	else:
 		print("That doesn't LGTM.")
-	exit()
+	sys.exit()
 
 # Check that the PR exists.
 if response.status_code == 404:
