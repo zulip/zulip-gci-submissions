@@ -18,5 +18,5 @@ FileNotFoundError: [Errno 2] No such file or directory: '/srv/zulip-venv-cache/d
 
 
 But then i fixed it like this:
-    $ zulip-run-bot ivche_helloworld_bot --config-file ~/zuliprc-my-bot
+    $ zulip-run-bot helloworld --config-file ~/zuliprc-my-bot
 
