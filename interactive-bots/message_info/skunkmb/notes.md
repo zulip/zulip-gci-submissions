@@ -29,6 +29,6 @@ errors telling me that there was `No module named mock`. However, when I ran
 that I had to run `./tools/test-bots` in Python 3 in order for it to find the
 `mock` module. When I ran `python3 ./tools/test-bots`, it worked!
 
-[this conversation in the # CGI Tasks stream]: https://chat.zulip.org/#narrow/stream/GCI.20tasks/subject/Python.202.20or.203.20in.20python-zulip-api/near/347329
-[pull request clearing up that Python 3 should be used]: https://github.com/zulip/python-zulip-api/pull/179
-[asked my mentors about them]: https://chat.zulip.org/#narrow/stream/development.20help/subject/Error.20in.20Zulip.20Development.20Website/near/349067
+[this conversation in the # CGI Tasks stream]: https://goo.gl/e4Bupg
+[pull request clearing up that Python 3 should be used]: https://goo.gl/Bb2rMB
+[asked my mentors about them]: https://goo.gl/K22PG3
