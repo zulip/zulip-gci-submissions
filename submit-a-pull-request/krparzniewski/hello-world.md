@@ -1,2 +1,2 @@
 Hello world
-I am krparzniewskiy. :tada:
+I am krparzniewski. :tada:
