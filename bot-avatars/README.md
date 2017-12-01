@@ -1,1 +1,3 @@
-We're not sure if we are going to have this task in the 2017 competition or not, but it is included for now so that it is easy to find. [Last year's task](https://github.com/zulip/zulip-gci/blob/master/tasks/2016/bot-avatars.md)
+Please put your submissions for the [visual art](https://github.com/zulip/zulip-gci/blob/master/tasks/2017/visual-art.md) task in this directory, in a directory `<your github username>`.
+
+Do make sure that you are submitting both 50px and 300px versions of your avatars. Good luck!
