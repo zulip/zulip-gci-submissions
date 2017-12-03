@@ -1,0 +1,1 @@
+The only problem with this project, was that the bot crashed for some unknown reason, tools/do-destroy-rebuild-database fixed it.
