@@ -1,2 +1,2 @@
 Hello world
-I am FineDiamond. :tada:
+I am username. :tada:
