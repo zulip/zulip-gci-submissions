@@ -14,7 +14,8 @@ The error looked like this..
   File "c:\users\new\python-zulip-api\zulip\zulip\__init__.py", line 311, in __init__
   with open(config_file, 'r') as f:
   PermissionError: [Errno 13] Permission denied: 'C:\\Users\\new\\zuliprc-my-bot'
-  (zulip-api-py3-venv)```
+  (zulip-api-py3-venv)
+  ```
   
   This just shows that the file cant be accessed.
   I checked out the Permissions in the Properties,everything was fine there.
