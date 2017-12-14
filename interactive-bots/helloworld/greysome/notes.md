@@ -1,0 +1,1 @@
+When I first ran the bot, there was an error about an unrecognized section header in the config file. I was quite puzzled as I had been following all the instructions up till then. I decided to redownload the config file just to double check, and everything worked miraculously from there.
