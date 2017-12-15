@@ -2,24 +2,25 @@ Task B-generate identicons
 
 ========================
   1. Structure of icon 
-========================
 
-1.Size of icons are 50 x 50px
-2.Each icon is made up of 100 tiles (10 x 10), where each tile is 5 x 5 px. The tiles are numbered 0-99 as shown below.
-=============================================
-#############################################
-## 0   1   2   3   4   5   6   7   8   9   ##
-## 10  11  12  13  14  15  16  17  18  19  ##
-## 20  21  22  23  24  25  26  27  28  29  ##
-## 30  31  32  33  34  35  36  37  38  39  ##
-## 40  41  42  43  44  45  46  47  48  49  ##
-## 50  51  52  53  54  55  56  57  58  59  ##
-## 60  61  62  63  64  65  66  67  68  69  ##
-## 70  71  72  73  74  75  76  77  78  79  ##
-## 80  81  82  83  84  85  86  87  88  89  ##
-## 90  91  92  93  94  95  96  97  98  99  ##
-#############################################
-=============================================
+Size of icons are 50 x 50px.
+Each icon is made up of 100 tiles (10 x 10), where each tile is 5 x 5 px. The tiles are numbered 0-99 as shown below.
+
+=======================================
+
+  0   1   2   3   4   5   6   7   8   9   
+ 10  11  12  13  14  15  16  17  18  19  
+ 20  21  22  23  24  25  26  27  28  29  
+ 30  31  32  33  34  35  36  37  38  39  
+ 40  41  42  43  44  45  46  47  48  49  
+ 50  51  52  53  54  55  56  57  58  59  
+ 60  61  62  63  64  65  66  67  68  69  
+ 70  71  72  73  74  75  76  77  78  79  
+ 80  81  82  83  84  85  86  87  88  89  
+ 90  91  92  93  94  95  96  97  98  99  
+ 
+=======================================
+
 3. Each icon is symmetrical. Therefore, only half of the icon (columns 1 2 3 4 5) needs to be generated. 
 
 ==Generating the hash==
@@ -31,7 +32,7 @@ The purpose of using a prime number is to generate a 'random looking' and long d
 The binary string is then inverted so that even if the input data is a string like 'abcd', the binary value won't follow any sequence. 
 Refer to the illustration below:
 
-###############################
+
 1.31 / 97 = 0.013505154639175258
 1.31 / 98 = 0.013367346938775511
 1.31 / 99 = 0.013232323232323233
@@ -45,7 +46,7 @@ Refer to the illustration below:
 1310.0
 
 ~which follows no order
-###############################
+
 
 Next, the xor value of the starting key and the binary string becomes a new 'key'. 
 The key then undergoes a circular shift to the left. 
@@ -58,7 +59,6 @@ The final version of the key becomes a 64-bit hash value.
 
 =======================================
   2.Translating the hash to a picture 
-=======================================
 
 Half of the icon takes up half of 10 x 10 which equals to 5 x 10 tiles = 50 tiles
 The first 50 bits of the hash value is used to determine where tiles are placed in the icon. 
@@ -72,7 +72,6 @@ After the color is picked, the colored tiles are generated using the Python Imag
 
 ========================
   3.Running the script
-========================
 
 Enter input data values into the file 'input_data.txt' according to the format below:
 
