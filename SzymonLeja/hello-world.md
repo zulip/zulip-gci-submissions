@@ -1,2 +1,2 @@
 Hello world
-I am SzymonLeja1. :tada:
+I am SzymonLeja. :tada:
