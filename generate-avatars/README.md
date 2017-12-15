@@ -1,10 +1,12 @@
 Task B-generate identicons
 
 ========================
-  1. Structure of icon 
+1. Structure of icon 
 
 Size of icons are 50 x 50px.
-Each icon is made up of 100 tiles (10 x 10), where each tile is 5 x 5 px. The tiles are numbered 0-99 as shown below.
+Each icon is made up of 100 tiles (10 x 10), where each tile is 5 x 5 px. 
+The tiles are numbered 0-99 as shown below.
+Each icon is symmetrical. Therefore, only half of the icon (columns 1 2 3 4 5) needs to be generated. 
 
 =======================================
 
@@ -21,9 +23,9 @@ Each icon is made up of 100 tiles (10 x 10), where each tile is 5 x 5 px. The ti
  
 =======================================
 
-3. Each icon is symmetrical. Therefore, only half of the icon (columns 1 2 3 4 5) needs to be generated. 
 
-==Generating the hash==
+
+Generating the hash
 
 Firstly, using a few mathematical operations, a basic starting key is generated.
 As the function loops through each char in the data input, the current char is represented by the value of 1.31 / ord(char) in binary form. 
@@ -33,17 +35,17 @@ The binary string is then inverted so that even if the input data is a string li
 Refer to the illustration below:
 
 
-1.31 / 97 = 0.013505154639175258
-1.31 / 98 = 0.013367346938775511
-1.31 / 99 = 0.013232323232323233
-1.31 / 100 = 0.0131
+-1.31 / 97 = 0.013505154639175258
+-1.31 / 98 = 0.013367346938775511
+-1.31 / 99 = 0.013232323232323233
+-1.31 / 100 = 0.0131
 
 ~inverting the results gives
 
-852571936451505310.0
-115577839643763310.0
-332323232323232310.0
-1310.0
+-852571936451505310.0
+-115577839643763310.0
+-332323232323232310.0
+-1310.0
 
 ~which follows no order
 
@@ -58,7 +60,7 @@ Loop continues until the entire data input string is exhausted
 The final version of the key becomes a 64-bit hash value.
 
 =======================================
-  2.Translating the hash to a picture 
+2.Translating the hash to a picture 
 
 Half of the icon takes up half of 10 x 10 which equals to 5 x 10 tiles = 50 tiles
 The first 50 bits of the hash value is used to determine where tiles are placed in the icon. 
@@ -71,7 +73,7 @@ Simply take modulo 3 of the denary value of the last 14-bits to determine which 
 After the color is picked, the colored tiles are generated using the Python Imaging Library (PIL) to form an icon.
 
 ========================
-  3.Running the script
+3.Running the script 
 
 Enter input data values into the file 'input_data.txt' according to the format below:
 
