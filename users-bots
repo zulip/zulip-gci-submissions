@@ -1,0 +1,107 @@
+Zulip Administration
+
+A) Deactivate or Reactivate a User:-
+
+Suggestions:-
+
+1. The words "API Keys" can be hyperlinked to the API page as a first time user viewing the documents might not have an idea about the API Keys & their usage.
+2. The word "bots" should also be hyperlinked to the respective 'Bots' documentation as a user might not have complete experience of using the Zulip Development Setup.
+
+Questions:-
+1. What if I have to Deactivate my account myself while also deactivating the API keys of the bots?(Without Making the User an Admin)
+   Will I always have to tell the admin?
+
+2. After Reactivating my account, will I get the API Keys of the bots(or the bots themselves) back to the stage prior to deactivation or will they have to be reconfigured?
+
+
+
+
+
+
+
+B) Deactivate or Reactivate a Bot:-
+
+
+Suggestions:-
+
+1. A small image of a bot name stricken should be added to the page below the 3rd step of Deactivate A Bot, which will make understanding easier of how it works.
+
+2. Same should be done for Reactivation of Bot, a screenshot of cleared Strikethrough should be added, or even better, a GIF, which will actually show what happens.
+
+
+
+Questions:-
+
+1. Can a User Privilege be created for Deactivation & Reactivation of bots?(Without Making the User an Admin) Or Do I Have to Contact the admin every time?
+   If not, What can be done so that I can Deactivate the bots when I prefer without any delay?
+
+
+
+
+
+
+C) Make a User an Administrator:-
+
+
+Suggestions:-
+
+1. Some sort of Security Measure should be added before making a user as an admin, as some users might misuse the privilege by deactivating others or their bots, which will result in loss of data and trust of the user.
+
+2. Again, if possible, a small screenshot of the process of making a user an admin can be put up for better understanding of the reader.
+
+
+
+Questions:-
+
+1. Maximum how many admins can be there simultaneously? Or is there no such limit??
+
+
+
+
+
+
+
+D)Change A User's Name:-
+
+
+Suggestions:-
+
+1. Some Security measure should be put out to prevent Admins from misusing their privileges of name changing, as it may cause the user harm/social embarrassment.
+
+
+
+Questions:-
+
+1. How many times can one change one's name?Is there such a limit?Are special characters allowed in the name?
+
+
+Comments:-
+
+1. Extra care should be taken to see that no admin misuses his/her privileges, but while doing so, no harm should go to the basic principles of the organization.
+
+
+2. (If this feature is not present) The admin should have privileges to ban a user if he/she is using the platform for inappropriate & foul/vulgar conversations or comments. 
+
+ 
+
+
+
+
+
+
+E)View All Bots In Your Organization:-
+
+
+
+Suggestions:-
+
+1. A screenshot of the Bots Tab can be inserted in the page to make understanding of the process more easy for a first time user.
+
+
+
+
+Questions:-
+
+1. What if I'm a user(not having admin privileges), but I still want to view the configuration of bots, how can I do it?
+   Will I have to become an admin to do so??
+   
