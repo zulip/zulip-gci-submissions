@@ -1,0 +1,21 @@
+Stream management
+
+
+- Delete a stream
+- Set default streams for new users
+- Rename a stream
+- Change a stream's description
+- Change the privacy of a stream
+- Add someone to a stream
+- Remove someone from a stream
+
+For all of the topics above the UI is pretty straight forward,
+I didn't face any problems or difficulties testing the actions
+and i didn't have any questions while doing so.
+
+The screenshots provided bu the /help/ section, looked the same
+as my dev instance, so no problem there.
+
+Also the documentation is well written and descriptive,
+so users shouldn't have any problem while trying to do a certain action
+from the actions listed above.
