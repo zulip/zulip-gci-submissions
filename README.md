@@ -1,5 +1,5 @@
 # Zulip Google Code-In Submissions Repository
-# from dia for google code challenge 
+
 This is a repository for student submissions in Zulip's Google Code In, 
 an awesome high school program where students compete by making contributions
 participating open source projects. Zulip has 
