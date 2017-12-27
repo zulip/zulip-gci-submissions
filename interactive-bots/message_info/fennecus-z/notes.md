@@ -1,0 +1,1 @@
+Getting the unit tests to run was particularly difficult. I tried to do as my mentors adviced, but it didn't work at the time, so I had to start the task again from scratch. Otherwise, it was smooth sailing.
