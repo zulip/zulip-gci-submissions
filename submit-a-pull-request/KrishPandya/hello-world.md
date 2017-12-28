@@ -1,2 +1,2 @@
 Hello world
-I am KrishPandyaR. :tada:
+I am KrishPandyaR. :tada: 
