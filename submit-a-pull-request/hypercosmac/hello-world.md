@@ -1,2 +1,2 @@
 Hello world
-I am Hypercosmac. :tada:
+I am hypercosmac. :tada:
