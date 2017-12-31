@@ -1,0 +1,1 @@
+Was easy but interesting, espically to write the unit test for the bot.
