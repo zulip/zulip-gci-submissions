@@ -1,0 +1,1 @@
+I had some trouble running the bot, so I asked in the GCI-help stream and Xavier Cooney helped out. Turns out the issue was that I didn't update the repository and I needed to pull some changes. After that everything worked smoothly.
