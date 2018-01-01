@@ -1,0 +1,1 @@
+I haven't had any problems to do the task. At first I have read the guide to write a bot. Then I followed the instructions on GitHub and it works great.
