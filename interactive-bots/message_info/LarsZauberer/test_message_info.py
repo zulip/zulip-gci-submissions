@@ -1,8 +1,10 @@
-<<<<<<< HEAD
 import zulip_bots.test_lib
 from typing import Any
+<<<<<<< HEAD
 =======
 >>>>>>> 0d253aa... interactive bots: Run the message_info bot for LarsZauberer.
+=======
+>>>>>>> eb5fdd9... interactive bots: Run the message_info bot for LarsZauberer.
 from zulip_bots.test_lib import BotTestCase
 
 class TestHelpBot(BotTestCase):
@@ -10,7 +12,6 @@ class TestHelpBot(BotTestCase):
 
     def test_followup_stream(self) -> None:
         message = dict(
-<<<<<<< HEAD
             content='You sent a message with {} words',
             type='privat',
             sender_email='message-info-bot@zulip.larszauberer.zulipdev.org',
@@ -52,9 +53,13 @@ class TestHelpBot(BotTestCase):
             '''
 
         with self.mock_config_info({'stream': 'followup'}):
+<<<<<<< HEAD
             self.verify_reply(request, bot_response)
 =======
             type='privat',
             sender_email='message-info-bot@zulip.larszauberer.zulipdev.org',
         )
 >>>>>>> 0d253aa... interactive bots: Run the message_info bot for LarsZauberer.
+=======
+            self.verify_reply(request, bot_response)
+>>>>>>> eb5fdd9... interactive bots: Run the message_info bot for LarsZauberer.
