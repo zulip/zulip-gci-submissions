@@ -1,2 +1,2 @@
 Hello world
-I am Ethan Koh Joon Yang. :tada:
+I am Courteously. :tada:
