@@ -1,0 +1,1 @@
+Since I was working with remote VM, I had problems with moving the zuliprc file from download folder to the VM, but later I ended up copying it into my clipboard and pasting in into the command line.
