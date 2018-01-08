@@ -1,0 +1,15 @@
+started server for the first time
+
+{"organization_name": "test", "webhook_event_id": 73407, "organization_id": 2587, "webhook_type": "AL", "webhook_event_data": {"check_state_name": "Available", "application_id": 2971, "check_id": 5630, "recently_started_check_start_time": null, "http_status_code": 200, "request_start_time": "2017-12-29T16:43:46.648366+00:00", "recently_started_check_state_name": null, "recently_started_check_http_status_code": null, "application_name": "test", "recently_started_check_response_time": null, "request_url": "http://privisus.zulipdev.org:9991", "response_time": 136}, "webhook_id": 290, "webhook_event_created_on": "2017-12-29T16:43:47.845584+00:00"}
+
+stopped server for the first time
+
+{"organization_name": "test", "webhook_event_id": 73413, "organization_id": 2587, "webhook_type": "AL", "webhook_event_data": {"check_state_name": "Not Responding", "application_id": 2971, "check_id": 5630, "recently_started_check_start_time": null, "http_status_code": null, "request_start_time": "2017-12-29T16:53:47.171797+00:00", "recently_started_check_state_name": null, "recently_started_check_http_status_code": null, "application_name": "test", "recently_started_check_response_time": null, "request_url": "http://privisus.zulipdev.org:9991", "response_time": 982}, "webhook_id": 290, "webhook_event_created_on": "2017-12-29T16:53:48.750980+00:00"}
+
+started server for the second time
+
+{"organization_name": "test", "webhook_event_id": 73414, "organization_id": 2587, "webhook_type": "AL", "webhook_event_data": {"check_state_name": "Available", "application_id": 2971, "check_id": 5630, "recently_started_check_start_time": null, "http_status_code": 200, "request_start_time": "2017-12-29T16:58:46.411236+00:00", "recently_started_check_state_name": null, "recently_started_check_http_status_code": null, "application_name": "test", "recently_started_check_response_time": null, "request_url": "http://privisus.zulipdev.org:9991", "response_time": 144}, "webhook_id": 290, "webhook_event_created_on": "2017-12-29T16:58:47.628729+00:00"}
+
+stopped server for the second time
+
+{"organization_name": "test", "webhook_event_id": 73417, "organization_id": 2587, "webhook_type": "AL", "webhook_event_data": {"check_state_name": "Not Responding", "application_id": 2971, "check_id": 5630, "recently_started_check_start_time": null, "http_status_code": null, "request_start_time": "2017-12-29T17:13:46.788129+00:00", "recently_started_check_state_name": null, "recently_started_check_http_status_code": null, "application_name": "test", "recently_started_check_response_time": null, "request_url": "http://privisus.zulipdev.org:9991", "response_time": 942}, "webhook_id": 290, "webhook_event_created_on": "2017-12-29T17:13:48.265870+00:00"}

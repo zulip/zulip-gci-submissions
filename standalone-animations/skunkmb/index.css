@@ -1,0 +1,176 @@
+@keyframes octopus-movement {
+  from {margin-top: 400px}
+  to {margin-top: -200px}
+}
+
+@keyframes pupil-movement {
+  from {
+    margin-top: 0px;
+    marginl-left: 0px;
+  }
+  25% {
+    margin-top: 0px;
+    margin-left: 4px;
+  }
+  50% {
+    margin-top: 4px;
+    margin-left: 4px;
+  }
+  75% {
+    margin-top: 4px;
+    margin-left: 0px;
+  }
+  to {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+
+@keyframes arm-one-movement {
+  from {transform: rotate(10deg);}
+  to {transform: rotate(40deg);}
+}
+
+@keyframes arm-two-movement {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(20deg);}
+}
+
+@keyframes arm-four-movement {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(-20deg);}
+}
+
+@keyframes arm-five-movement {
+  from {transform: rotate(-10deg);}
+  to {transform: rotate(-40deg);}
+}
+
+body {
+  margin: 0px;
+}
+
+.container {
+  width: 100%;
+
+  /* If `height` is adjusted, the `octopus-movement` animation should also be
+     adjusted with the new height. */
+  height: 400px;
+
+  /* These colors are based on https://zulip.org's background colors. */
+  background: linear-gradient(rgb(70, 166, 147), rgb(195, 223, 194));
+
+  overflow: hidden;
+}
+
+.container .octopus {
+  margin: 64px auto;
+  animation-name: octopus-movement;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.container .octopus .head {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 4px solid black;
+  background-color: white;
+}
+
+.container .octopus .head .eye {
+  margin-top: 32px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+
+.container .octopus .head .eye.one {
+  float: left;
+  margin-left: 16px;
+}
+
+.container .octopus .head .eye.two {
+  float: right;
+  margin-right: 16px;
+}
+
+.container .octopus .head .eye .pupil {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  border: 4px solid black;
+
+  animation-name: pupil-movement;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.container .octopus .head .mouth {
+  margin: 64px auto 0;
+  width: 32px;
+  height: 8px;
+  border-radius: 0 0 16px 16px;
+  border: 4px solid black;
+}
+
+.container .octopus .arms {
+  text-align: center;
+  margin-top: -44px;
+}
+
+.container .octopus .arms .arm {
+  display: inline-block;
+  width: 12px;
+  height: 64px;
+  border-radius: 0 0 16px 16px;
+  background-color: white;
+  border: 4px solid black;
+}
+
+.container .octopus .arms .arm.one, .container .octopus .arms .arm.five {
+  margin-bottom: 24px;
+}
+
+.container .octopus .arms .arm.two, .container .octopus .arms .arm.four {
+  margin-bottom: 8px;
+}
+
+
+.container .octopus .arms .arm.two {
+  animation-name: arm-two-movement;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.container .octopus .arms .arm.four {
+  animation-name: arm-four-movement;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.container .octopus .arms .arm.one {
+  animation-name: arm-one-movement;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.container .octopus .arms .arm.five {
+  animation-name: arm-five-movement;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
